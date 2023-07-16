@@ -1,0 +1,34 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator {
+    border: 2px solid black;
+    border-radius: 15px;;
+    padding: 15px;
+    gap:10px;
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    width:400px;
+    background-color: #d3d3d3;
+    justify-content: space-between;
+}
+.screen {
+    background-color: #fefefa;
+    flex:2;
+}
+.main-pad , .pad {
+    display:flex;
+    border: 2px green solid;
+    justify-content: space-around;
+}
+.main-pad {
+    flex:1;
+}
+.pad{
+    flex:1;
+}
