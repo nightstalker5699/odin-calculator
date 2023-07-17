@@ -12,23 +12,58 @@ body {
     gap:10px;
     display: flex;
     flex-direction: column;
-    height: 50vh;
-    width:400px;
+    height: 60vh;
+    width:300px;
     background-color: #d3d3d3;
     justify-content: space-between;
 }
 .screen {
+    font-family: "Droid Serif";
+    font-size: 40px;;
+    padding:0 20px;;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    border: 2px solid black;
+    border-radius: 15px;;
     background-color: #fefefa;
     flex:2;
 }
+.small {
+    font-size: 25px;;
+}
 .main-pad , .pad {
+    flex:1;
+    gap:10px;
     display:flex;
-    border: 2px green solid;
-    justify-content: space-around;
+    justify-content: space-between;
 }
-.main-pad {
+
+
+.button {
+    font-size: 32px;
+    cursor:pointer;
+    border: 2px solid black;
+    border-radius: 10px;
     flex:1;
 }
-.pad{
+.clear , .delete {
+    font-size: 35px;
     flex:1;
+    cursor:pointer;
+    border: 2px solid black;
+    border-radius: 10px;
 }
+.clear {
+    background-color: #f5a6b7;
+}
+.delete{
+    background-color: #aea6f5;
+}
+button:active {
+    transform: scale(0.98);
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);}
+    button:hover {
+        transform: scale(0.98);
+    }
